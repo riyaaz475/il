@@ -31,18 +31,176 @@ SPECIAL_MAX_THREADS = 2000
 # Key Prices
 KEY_PRICES = {
     "1H": 5,
+    "2H": 10,  # Price for 1-hour key
+    "3H": 15,  # Price for 1-hour key
+    "4H": 20,  # Price for 1-hour key
+    "5H": 25,  # Price for 1-hour key
+    "6H": 30,  # Price for 1-hour key
+    "7H": 35,  # Price for 1-hour key
+    "8H": 40,  # Price for 1-hour key
+    "9H": 45,  # Price for 1-hour key
+    "10H": 50, # Price for 1-hour key
+    "1D": 60,  # Price for 1-day key
+    "2D": 100,  # Price for 1-day key
+    "3D": 160, # Price for 1-day key
+    "5D": 250, # Price for 2-day key
+    "7D": 320, # Price for 2-day key
+    "15D": 700, # Price for 2-day key
+    "30D": 1250, # Price for 2-day key
+    "60D": 2000, # Price for 2-day key,
 }
 
 # Special Key Prices
 SPECIAL_KEY_PRICES = {
-    "1D": 70,
+    "1D": 70,  # 7 days special key price
+    "2D": 130,  # 30 days special key price
+    "3D": 250,  # 30 days special key price
+    "4D": 300,  # 30 days special key price
+    "5D": 400,  # 30 days special key price
+    "6D": 500,  # 30 days special key price
+    "7D": 550,  # 30 days special key price
+    "8D": 600,  # 30 days special key price
+    "9D": 750,  # 30 days special key price
+    "10D": 800,  # 30 days special key price
+    "11D": 850,  # 30 days special key price
+    "12D": 900,  # 30 days special key price
+    "13D": 950,  # 30 days special key price
+    "14D": 1000,  # 30 days special key price
+    "15D": 1050,  # 30 days special key price
+    "30D": 1500,  # 30 days special key price
 }
 
 # Image configuration
 START_IMAGES = [
     {
         'url': 'https://www.craiyon.com/image/Mfze8oH8SbO8IDZQZb36Tg',
-        'caption': '🔥 *Welcome to the Ultimate DDoS Bot!* 🔥\n\nExample 20.235.43.9 14533 120 100\n\n💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n⚠️ *Use responsibly* ⚠️'
+        'caption':(
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *RIYAAZ RITIK KA DUSRA BAAP🤬* ⚠️'
+        )
+    },
+    {
+        'url': 'https://www.craiyon.com/image/KC4CfJPuQTuKdSdlrkiczg',
+        'caption':(
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *RIYAAZ RITIK KA DUSRA BAAP🤬* ⚠️'
+        )
+    },
+    {
+        'url': 'https://www.craiyon.com/image/A3ol0NRAQc2N3C62DXcfpA',
+        'caption': (
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *RITIK KI MAMMY CHUT ME HATHI KA LUND🤬* ⚠️'
+        )
+    },
+    {
+        'url': 'https://www.craiyon.com/image/IErJnUlDTkCvcWBeTZX8qQ',
+        'caption': (
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *RAJA RITIK KA PEHLA BAAP🤬* ⚠️'
+        )
+    },
+    {
+        'url': 'https://www.craiyon.com/image/073Vnr7jQpGUkSMr6Rrvjw',
+        'caption': (
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *RITIK KI MUMMY KO MOTE LUND SE CHODNE WALA S2 FLASH* ⚠️'
+        )
+    },
+    {
+        'url': 'https://www.craiyon.com/image/XgSNsdopTYGnlDsVC4PnSw',
+        'caption': (
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *DEMON NE RITIK KI MUMMY KE BLOUSE SILNE KE BAHANE USKE BOOBS DABA DIYE* ⚠️'
+        )
+    },
+    {
+        'url': 'https://www.craiyon.com/image/JbBsmO9RQcy2CKQiOf_MOw',
+        'caption': (
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *4 LOGO NE MILKE RITIK KI MUMMY KA KIYA RAPE OR CHUT PHAAD DI* ⚠️'
+        )
+    },
+    {
+        'url': 'https://www.craiyon.com/image/yF1wqEx7TuuAfoBLK0Zmag',
+        'caption': (
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *MERE GROUP KA HAR BANDA RITIK KI MUMMY KA YAAR HA* ⚠️'
+        )
+    },
+    {
+        'url': 'https://www.craiyon.com/image/XuS2HNGdTFKqGkpAGzzrqg',
+        'caption': (
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *RITIK KI MUMMY KI GND KE CHED KA SIZE KITNA HA* ⚠️'
+        )
+    },
+    {
+        'url': 'https://www.craiyon.com/image/iRyN9awaQIeFgjqVVucIlA',
+        'caption': (
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *⚠️LATEST NEWS⚠️ RITIK KI MUMMY KO 9000 THREDS PE CHODA * ⚠️'
+        )
+    },
+    {
+        'url': 'https://www.craiyon.com/image/bAhq_xScRm-wk-hD9GzUrw',
+        'caption': (
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *⚠️LATEST NEWS⚠️ RITIK KI MUMMY GHODE GAND MARWATE HUE PAKDI GYI* ⚠️'
+       )
+    },
+    {
+        'url': 'https://mobilehd.blob.core.windows.net/main/2017/02/girl-sexy-black-swimsuit-look-1080x1920.jpg',
+        'caption':(
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *RITIK KA BAAP GAY HA USKA ASLI BAAP S2 FLASH HA* ⚠️'
+        )
+    },
+    {
+        'url': 'https://s2.best-wallpaper.net/wallpaper/iphone/2007/Beautiful-long-hair-girl-look-sunshine-summer_iphone_640x1136.jpg',
+        'caption':(
+            '🔥 *Welcome to the Ultimate DDoS Bot!*\n\n'
+            '💻 *Example:* `20.235.43.9 14533 120 100`\n\n'
+            '💀 *Bsdk threads ha 100 dalo time 120 dalne ke baad* 💀\n\n'
+            '🔑 *Ritik ki ma chodne wala @Riyahacksyt*\n\n'
+            '⚠️ *S2 FLASH NE RITIK KI MUMMY KO 1024 BYTE PE CHOD OR ABB CHUT KA SIZE 50CM HA* ⚠️'
+        )
     },
 ]
 
@@ -367,7 +525,7 @@ async def generate_special_key_format(update: Update, context: CallbackContext):
         f"⚡ *Max Duration:* {SPECIAL_MAX_DURATION} sec\n"
         f"🧵 *Max Threads:* {SPECIAL_MAX_THREADS}\n\n"
         f"👑 *Bot Owner:* @{OWNER_USERNAME}\n\n"
-        f"⚠️ *This key provides enhanced attack capabilities!*",
+        f"⚠️ *This key provides enhanced attack capabilities when you fucking Ritik mommy!*",
         parse_mode='Markdown'
     )
     return ConversationHandler.END
@@ -420,7 +578,7 @@ async def redeem_key_input(update: Update, context: CallbackContext):
             f"• Max Duration: {SPECIAL_MAX_DURATION} sec\n"
             f"• Max Threads: {SPECIAL_MAX_THREADS}\n\n"
             f"👑 *Bot Owner:* @{OWNER_USERNAME}\n\n"
-            f"⚡ *Happy attacking!*",
+            f"⚡ *Happy attacking and ritik ki maka chut phaad do!*",
             parse_mode='Markdown'
         )
     else:
@@ -546,7 +704,7 @@ async def attack_input(update: Update, context: CallbackContext):
         f"🕒 *Duration*: {duration} sec\n"
         f"🧵 *Threads*: {threads}\n"
         f"👑 *Bot Owner:* @{OWNER_USERNAME}\n\n"
-        f"🔥 *Let the battlefield ignite! 💥*",
+        f"🔥 *RITIK KI MUMMY CHODNA CHALU HO GY HA! 💥*",
         parse_mode='Markdown'
     )
 
@@ -570,7 +728,7 @@ async def attack_input(update: Update, context: CallbackContext):
                     f"🕒 *Duration*: {duration} sec\n"
                     f"🧵 *Threads*: {threads}\n"
                     f"👑 *Bot Owner:* @{OWNER_USERNAME}\n\n"
-                    f"🔥 *The battlefield is now silent.*",
+                    f"🔥 *RITIK KI CHODNA AB BND HO GY HA.*",
                     parse_mode='Markdown'
                 )
             else:
@@ -924,7 +1082,7 @@ async def check_key_status(update: Update, context: CallbackContext):
                     f"⚡ *Max Duration:* {SPECIAL_MAX_DURATION} sec\n"
                     f"🧵 *Max Threads:* {SPECIAL_MAX_THREADS}\n\n"
                     f"👑 *Bot Owner:* @{OWNER_USERNAME}\n\n"
-                    f"💎 *Enjoy your premium special access!*"
+                    f"💎 *ABHI APP RITIK KI MAA CHOD SKTE HO HIGH POWER PE!*"
                 )
             else:
                 status_message = (
@@ -934,7 +1092,7 @@ async def check_key_status(update: Update, context: CallbackContext):
                     f"🔑 *Key:* `{escape_markdown(key_info, version=2) if key_info else 'Unknown'}`\n"
                     f"⏳ *Status:* 🔴 Expired\n\n"
                     f"👑 *Bot Owner:* @{OWNER_USERNAME}\n\n"
-                    f"❌ *Your special key has expired.*"
+                    f"❌ *ABB APP NHI CHOD SKTE.*"
                 )
         else:
             expiration_time = redeemed_users[user_id]
@@ -958,7 +1116,7 @@ async def check_key_status(update: Update, context: CallbackContext):
                     f"⏳ *Status:* 🟢 Running\n"
                     f"🕒 *Remaining Time:* {hours}h {minutes}m\n\n"
                     f"👑 *Bot Owner:* @{OWNER_USERNAME}\n\n"
-                    f"⚡ *Enjoy your access!*"
+                    f"⚡ *Enjoy your access AND Ritik ki maka bhosda!*"
                 )
             else:
                 status_message = (
@@ -968,7 +1126,7 @@ async def check_key_status(update: Update, context: CallbackContext):
                     f"🔑 *Key:* `{escape_markdown(key_info, version=2) if key_info else 'Unknown'}`\n"
                     f"⏳ *Status:* 🔴 Expired\n\n"
                     f"👑 *Bot Owner:* @{OWNER_USERNAME}\n\n"
-                    f"❌ *Your key has expired. Please redeem a new key.*"
+                    f"❌ *Your key has expired. Ritik ki maki chut.*"
                 )
     else:
         status_message = (
@@ -1000,6 +1158,7 @@ async def rules(update: Update, context: CallbackContext):
         "5. Respect other users and the bot owner.\n\n"
         "6. Any violation of these rules will result key ban with no refund.\n\n\n"
         "BSDK RULES FOLLOW KRNA WARNA GND MAR DUNGA.\n\n"
+        "JO BHI RITIK KI MAKI CHUT PHAADKE SS DEGA USSE EXTRA KEY DUNGA.\n\n"
         f"👑 *Bot Owner:* @{OWNER_USERNAME}\n"
         f"💬 *Need a key? DM:* @{OWNER_USERNAME}"
     )
